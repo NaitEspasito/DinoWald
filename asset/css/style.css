@@ -1,7 +1,7 @@
 body.v3 .main-nav {
     background-color: rgba(0, 0, 0, .4);
 }
-body.v3 .main-nav .nav-filler {
+body.v3 .nav-filler {
     height: 0;
 }
 body.v3 .main_content {
