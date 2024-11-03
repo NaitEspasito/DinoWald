@@ -1,3 +1,7 @@
+body.v3 .full-bg {
+    -webkit-filter: blur(0px) brightness(100%);
+    filter: blur(0px) brightness(100%);
+}
 body.v3 .main-nav {
     background-color: rgba(0, 0, 0, .4);
     font-family: "Roboto", sans-serif;
