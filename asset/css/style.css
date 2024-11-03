@@ -18,9 +18,6 @@ body.v3 .main_content .banner .container-fluid {
     overflow: hidden;
     background-attachment: fixed;
 }
-body.v3 .main_content .banner .container-fluid .row {
-    min-height: 100vh;
-}
 body.v3 .main_content .banner .container-fluid .row .center-block {
     margin: 0;
     width: 100%;
