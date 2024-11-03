@@ -18,7 +18,9 @@ body.v3 .nav-filler {
     overflow: hidden;
     background-attachment: fixed;
 }
+#homeSection{
 
+}
 
 body.v3 .main_content .test{
     position: relative
@@ -34,7 +36,7 @@ body.v3 .main_content .banner .container-fluid .test{
     overflow: hidden;
     background-attachment: fixed;
 }
-body.v3 .main_content .banner .container-fluid .row .center-block .test{
+body.v3 .main_content .banner .container-fluid .row .center-block{
     margin: 0;
     width: 100%;
     padding: 0;
