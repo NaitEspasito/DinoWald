@@ -18,8 +18,14 @@ body.v3 .nav-filler {
     overflow: hidden;
     background-attachment: fixed;
 }
-#homeSection{
-
+#homeSection .herochar{
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 630px;
+    height: 429px;
+    z-index: 1;
 }
 
 body.v3 .main_content .test{
