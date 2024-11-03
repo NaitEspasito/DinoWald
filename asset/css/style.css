@@ -22,9 +22,9 @@ body.v3 .nav-filler {
     opacity: 1;
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 630px;
-    height: 429px;
+    right: 0;
+    width: 460px;
+    height: 605px;
     z-index: 1;
 }
 
