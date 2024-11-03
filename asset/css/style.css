@@ -31,6 +31,14 @@ body.v3 .main_content .banner .container-fluid .row .center-block .display-table
     height: 100%;
     padding: 0;
 }
+body.v3 .main_content .banner .container-fluid .row .center-block .display-table .wysiwyg-content {
+    min-height: 100vh;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: grid;
+}
 body.v3 .main_content .banner .container-fluid .row .center-block .display-table .wysiwyg-content .herochar {
     opacity: 1;
     position: absolute;
