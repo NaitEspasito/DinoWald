@@ -1,3 +1,50 @@
+.t1{
+	font-family: TitilliumWeb-Bold !important
+}
+
+.t2{
+	font-family: TitilliumWeb-Black !important
+}
+
+.t3{
+	font-family: TitilliumWeb-BoldItalic !important
+}
+
+.t4{
+	font-family: TitilliumWeb-ExtraLight !important
+}
+
+.t5{
+	font-family: TitilliumWeb-ExtraLightItalic !important
+}
+
+.t6{
+	font-family: TitilliumWeb-Italic !important
+}
+
+.t7{
+	font-family: TitilliumWeb-Light !important
+}
+
+.t8{
+	font-family: TitilliumWeb-LightItalic !important
+}
+
+.t9{
+	font-family :TitilliumWeb-Regular !important
+}
+
+.t10{
+	font-family: TitilliumWeb-SemiBold !important
+}
+
+.t11{
+	font-family: TitilliumWeb-SemiBoldItalic !important
+}
+.ha{
+	font-family: High-Amelliya !important	
+}
+
 body.v3 .full-bg {
     -webkit-filter: none;
     filter: none;
@@ -38,5 +85,11 @@ body.v3 .main_content .banner .container-fluid .row .display-table{
     z-index: 1;
 }
 #homeSection .texthomeSection{
-
+    color: #ffffff;
+}
+#homeSection .texthomeSection h2{
+    font-size: ;
+}
+#homeSection .texthomeSection p{
+    font-size: ;
 }
