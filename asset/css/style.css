@@ -85,11 +85,11 @@ body.v3 .main_content .banner .container-fluid .row .display-table{
     z-index: 1;
 }
 #homeSection .texthomeSection{
-    color: #ffffff;
+    
 }
 #homeSection .texthomeSection h2{
-    
+    color: #ffffff !important
 }
 #homeSection .texthomeSection p{
-    
+    color: #ffffff !important
 }
