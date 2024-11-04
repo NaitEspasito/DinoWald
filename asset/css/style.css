@@ -11,6 +11,10 @@ body.v3 .nav-filler {
     height: 0;
 }
 
+body.v3 .main_content .banner .container-fluid .row .display-table{
+    padding-top: 0px;
+}
+
 #homeSection {
     position: relative;
     top: 0;
@@ -33,6 +37,6 @@ body.v3 .nav-filler {
     height: 500px;
     z-index: 1;
 }
-body.v3 .main_content .banner .container-fluid .row .display-table{
-    padding-top: 0px;
+#homeSection .texthomeSection{
+
 }
