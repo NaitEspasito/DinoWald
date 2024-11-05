@@ -68,9 +68,6 @@ body.v3 .main-nav {
     font-family: "Roboto", sans-serif;
     
 }
-body.v3 .nav-filler {
-    height: 0;
-}
 
 body.v3 .main_content .banner .container-fluid .row .display-table{
     padding-top: 0px;
