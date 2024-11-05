@@ -90,6 +90,7 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     overflow: hidden;
     background-attachment: fixed;
     align-content: center;
+    margin-top: -60px;
 }
 #homeSection .herochar{
     opacity: 1;
