@@ -136,8 +136,16 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     grid-column: span 2/span 2
 }
 
+.dinoWaldShopGrid_2x1 img{
+    border-radius: 10px 10px 10px 10px;
+}
+
 .dinoWaldShopGrid_1x2 {
     grid-row: span 2/span 2
+}
+
+.dinoWaldShopGrid_1x2 img{
+    border-radius: 10px 10px 10px 10px;
 }
 
 @media (min-width: 767px) {
