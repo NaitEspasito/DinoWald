@@ -528,11 +528,11 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 }
 
 .dinoWaldShopGrid_2x1 img{
-    
+    border-radius: 10px;
 }
 
 .dinoWaldShopGrid_1x2 img{
-    
+    border-radius: 10px;
 }
 
 @media (min-width: 767px) {
