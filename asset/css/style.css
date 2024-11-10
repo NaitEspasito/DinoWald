@@ -112,6 +112,15 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 
 
 
+
+
+
+
+
+
+
+
+
 .dinoWaldShopGrid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -184,5 +193,34 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 
     .package-single .frame.big {
         margin-bottom: 0
+    }
+}
+
+@media (max-width: 768px) {
+    .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:2rem;
+        padding-bottom: 0
+    }
+
+    .page-reward-shop .container-fluid:not(:first-child) .row.padding-0 {
+        padding-top: 0
+    }
+
+    .page-reward-shop .container-fluid:not(:last-child) .row.padding-0 {
+        padding-bottom: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:6rem
+    }
+
+    .page-reward-shop .table-cell.table-cell.col-md-3 {
+        flex-basis: 25%
+    }
+
+    .page-reward-shop .table-cell.table-cell.col-md-4 {
+        flex-basis: 33.33333%
     }
 }
