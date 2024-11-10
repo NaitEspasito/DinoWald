@@ -76,9 +76,6 @@ body.v3 .main-nav .btn.btn-default.btn-small.login {
     border: 0
 }
 
-body.v3 .main_content .banner .container-fluid .row .display-table{
-    padding-top: 0px;
-}
 body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     background-color: rgb(255, 0, 0) !important;
 }
