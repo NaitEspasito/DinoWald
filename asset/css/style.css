@@ -63,11 +63,19 @@ body.v3 .full-bg {
     -webkit-filter: none;
     filter: none;
 }
-body.v3 .main-nav {
-    background-color: rgba(0, 0, 0, .4);
-    font-family: "Roboto", sans-serif;
-    
+body.v3 .breadcrumb,.v3 .btn,.v3 .label,.v3 .main-nav,.v3 h1,.v3 h2,.v3 h3,.v3 h6 {
+    text-transform: uppercase
 }
+body.v3 .main-nav {
+    font-weight: 400;
+    height: 60px
+}
+
+body.v3 .main-nav .btn.btn-default.btn-small.login {
+    background: none;
+    border: 0
+}
+
 body.v3 .main_content .banner .container-fluid .row .display-table{
     padding-top: 0px;
 }
