@@ -162,7 +162,25 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 .page-reward-shop .table-cell.table-cell.col-md-3 {
     flex-basis: 50%
 }
-
+.page-reward-shop .nav-tabs .nav-link.mb-2.active,
+.page-reward-shop .nav-tabs .nav-item.mb-2.show .nav-link,
+.page-reward-shop .nav-tabs .nav-link.mb-2.active,
+.page-reward-shop .nav-tabs .nav-item.mb-2.show .nav-link
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0, 0);
+    border-left: .2em solid rgb(253, 122, 0, 0.9) !important;
+    border-radius: 0;
+}
+.page-reward-shop .nav-item.mb-2:hover .nav-link ,
+.page-reward-shop .nav-item.mb-2:focus .nav-link,
+.page-reward-shop .nav-item.mb-2:hover .nav-link,
+.page-reward-shop .nav-item.mb-2:focus .nav-link
+{
+    color: rgb(253, 122, 0) !important;
+    border-left: .2em solid rgb(253, 122, 0, 0.9) !important;
+    border-radius: 0;
+}
 @media (max-width: 768px) {
     .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
         padding-top:2rem;
