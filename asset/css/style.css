@@ -176,6 +176,19 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     .page-reward-shop .container-fluid:not(:last-child) .row.padding-0 {
         padding-bottom: 0
     }
+
+    .page-server-regeln .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:2rem;
+        padding-bottom: 0
+    }
+
+    .page-server-regeln .container-fluid:not(:first-child) .row.padding-0 {
+        padding-top: 0
+    }
+
+    .page-server-regeln .container-fluid:not(:last-child) .row.padding-0 {
+        padding-bottom: 0
+    }
 }
 
 @media (min-width: 768px) {
@@ -188,6 +201,18 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     }
 
     .page-reward-shop .table-cell.table-cell.col-md-4 {
+        flex-basis: 33.33333%
+    }
+
+    .page-server-regeln .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:6rem
+    }
+
+    .page-server-regeln .table-cell.table-cell.col-md-3 {
+        flex-basis: 25%
+    }
+
+    .page-server-regeln .table-cell.table-cell.col-md-4 {
         flex-basis: 33.33333%
     }
 }
