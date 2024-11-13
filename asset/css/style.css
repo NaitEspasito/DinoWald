@@ -167,6 +167,11 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     background-color: rgb(51, 51, 51);
     width: 100%;
 }
+.page-server-informationen .dashbord-nav li.nav-item {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+}
 @media (max-width: 768px) {
     .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
         padding-top:2rem;
