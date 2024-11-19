@@ -190,7 +190,20 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         padding-top: 0
     }
 
-    .page-server-informationen .container-fluid:not(:last-child) .row.padding-0 {
+    .page-adventskalender .container-fluid:not(:last-child) .row.padding-0 {
+        padding-bottom: 0
+    }
+
+    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:2rem;
+        padding-bottom: 0
+    }
+
+    .page-adventskalender .container-fluid:not(:first-child) .row.padding-0 {
+        padding-top: 0
+    }
+
+    .page-adventskalender .container-fluid:not(:last-child) .row.padding-0 {
         padding-bottom: 0
     }
 }
@@ -216,7 +229,19 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         flex-basis: 25%
     }
 
-    .page-server-informationen .table-cell.table-cell.col-md-4 {
+    .page-adventskalender .table-cell.table-cell.col-md-4 {
+        flex-basis: 33.33333%
+    }
+
+    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:6rem
+    }
+
+    .page-adventskalender .table-cell.table-cell.col-md-3 {
+        flex-basis: 25%
+    }
+
+    .page-adventskalender .table-cell.table-cell.col-md-4 {
         flex-basis: 33.33333%
     }
 }
@@ -643,20 +668,6 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         display:grid;
         grid-template-columns: repeat(6,1fr);
         gap: 20px
-    }
-}
-
-@media (max-width: 768px){
-    .page-adventskalender .big_banner_row .big_banner .content-wrapper.no-button.no-subtitle {
-        padding-top:2rem;
-        padding-bottom: 0
-    }    
-}
-
-
-@media (min-width: 768px){
-    .page-adventskalender .big_banner_row .big_banner .content-wrapper.no-button.no-subtitle {
-        padding-top:6rem
     }
 }
  
