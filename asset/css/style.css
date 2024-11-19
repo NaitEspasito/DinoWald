@@ -632,7 +632,7 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     gap: 20px
 }
 
-.dinoWaldShopGrid_2x2 {
+.adventskalenderGrid_2x2 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
 }
