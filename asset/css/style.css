@@ -190,22 +190,10 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         padding-top: 0
     }
 
-    .page-adventskalender .container-fluid:not(:last-child) .row.padding-0 {
+    .page-server-informationen .container-fluid:not(:last-child) .row.padding-0 {
         padding-bottom: 0
     }
 
-    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
-        padding-top:2rem;
-        padding-bottom: 0
-    }
-
-    .page-adventskalender .container-fluid:not(:first-child) .row.padding-0 {
-        padding-top: 0
-    }
-
-    .page-adventskalender .container-fluid:not(:last-child) .row.padding-0 {
-        padding-bottom: 0
-    }
 }
 
 @media (min-width: 768px) {
@@ -229,21 +217,10 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         flex-basis: 25%
     }
 
-    .page-adventskalender .table-cell.table-cell.col-md-4 {
+    .page-server-informationen .table-cell.table-cell.col-md-4 {
         flex-basis: 33.33333%
     }
 
-    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
-        padding-top:6rem
-    }
-
-    .page-adventskalender .table-cell.table-cell.col-md-3 {
-        flex-basis: 25%
-    }
-
-    .page-adventskalender .table-cell.table-cell.col-md-4 {
-        flex-basis: 33.33333%
-    }
 }
 
 .shop .col-md-4.hidden-xs {
@@ -581,6 +558,10 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     grid-row: span 2/span 2
 }
 
+.dinoWaldShopGrid_1x1 img{
+    border-radius: 10px;
+}
+
 .dinoWaldShopGrid_2x1 img{
     border-radius: 10px;
 }
@@ -662,6 +643,14 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     grid-row: span 2 / span 2;
 }
 
+.adventskalenderGrid_1x1 img{
+    border-radius: 10px;
+}
+
+.adventskalenderGrid_2x2 img{
+    border-radius: 10px;
+}
+
 
 @media (min-width: 767px) {
     .adventskalenderGrid {
@@ -670,4 +659,34 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
         gap: 20px
     }
 }
- 
+
+@media (max-width: 768px) {
+    
+    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:2rem;
+        padding-bottom: 0
+    }
+
+    .page-adventskalender .container-fluid:not(:first-child) .row.padding-0 {
+        padding-top: 0
+    }
+
+    .page-adventskalender .container-fluid:not(:last-child) .row.padding-0 {
+        padding-bottom: 0
+    }
+}
+
+@media (min-width: 768px) {
+
+    .page-adventskalender .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
+        padding-top:6rem
+    }
+
+    .page-adventskalender .table-cell.table-cell.col-md-3 {
+        flex-basis: 25%
+    }
+
+    .page-adventskalender .table-cell.table-cell.col-md-4 {
+        flex-basis: 33.33333%
+    }
+}
