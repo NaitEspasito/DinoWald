@@ -655,7 +655,7 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 
 
 @media (min-width: 768px){
-    .page-adventskalender.big_banner_row .big_banner .content-wrapper.no-button.no-subtitle {
+    .page-adventskalender .big_banner_row .big_banner .content-wrapper.no-button.no-subtitle {
         padding-top:6rem
     }
 }
