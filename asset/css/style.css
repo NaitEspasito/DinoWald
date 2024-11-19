@@ -641,7 +641,7 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 @media (min-width: 767px) {
     .adventskalenderGrid {
         display:grid;
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(6,1fr);
         gap: 20px
     }
 }
