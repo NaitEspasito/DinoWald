@@ -162,17 +162,31 @@ body.v3.pagebuilder .main_content {
 .page-reward-shop .table-cell.table-cell.col-md-3 {
     flex-basis: 50%
 }
+
 .page-server-informationen .dashbord-nav li.nav-item {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 51, 51);
     width: 100%;
 }
+
 .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
     padding-top: 6rem;
     padding-bottom: 0
 }
+
 .page-home .center-block{
     width: 100%;
+}
+
+#Wilkommen .container {
+    padding: 90px 15px;
+}
+#Wilkommen .wilkommen_text h2{
+    color: #ffffff !important;
+    margin-bottom: 1.5rem !important;
+}
+#Wilkommen .wilkommen_text p{
+    color: #ffffff !important;
 }
 @media (max-width: 768px) {
     .herochar,
