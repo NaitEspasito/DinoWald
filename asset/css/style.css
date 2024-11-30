@@ -1,6 +1,7 @@
 body.v3 .full-bg {
     -webkit-filter: blur(2px) brightness(100%);
     filter: blur(2px) brightness(100%);
+    min-height: 100vh;
 }
 body.v3 .breadcrumb,.v3 .btn,.v3 .label,.v3 .main-nav,.v3 h1,.v3 h2,.v3 h3,.v3 h6 {
     text-transform: uppercase
