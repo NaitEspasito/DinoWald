@@ -197,6 +197,10 @@ body.v3.pagebuilder .main_content {
     .page-server-informationen .container-fluid:not(:last-child) .row.padding-0 {
         padding-bottom: 0
     }
+    
+    .page-home .main_content .banner .background .container-fluid .row .center-block {
+        width: 100%
+    }
 
 }
 
@@ -223,9 +227,6 @@ body.v3.pagebuilder .main_content {
 
     .page-server-informationen .table-cell.table-cell.col-md-4 {
         flex-basis: 33.33333%
-    }
-    .page-home .main_content .banner .background .container-fluid .row .center-block {
-        width: 100%
     }
 
 }
