@@ -70,11 +70,6 @@ body.v3.pagebuilder .main_content {
     padding: 0
 }
 
-.v3 .full-bg.full-bg {
-    -webkit-filter: none;
-    filter: none
-}
-
 .v3 .calendar-single.calendar-single.calendar-single.calendar-single.calendar-single.calendar-single .header .title {
     position: relative;
     max-width: unset
