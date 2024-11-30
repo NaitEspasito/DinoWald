@@ -1,6 +1,6 @@
 body.v3 .full-bg {
-    -webkit-filter: none;
-    filter: none;
+    -webkit-filter: blur(2px) brightness(100%);
+    filter: blur(2px) brightness(100%);
 }
 body.v3 .breadcrumb,.v3 .btn,.v3 .label,.v3 .main-nav,.v3 h1,.v3 h2,.v3 h3,.v3 h6 {
     text-transform: uppercase
@@ -20,6 +20,10 @@ body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
 }
 body.v3 .main-nav .navbar .navbar-default .navbar-fixed-top .passed-banner{
     background-color: rgba(0, 0, 0, .4) !important;
+}
+body.v3.pagebuilder .main_content {
+    margin-top: -60px;
+    margin-bottom: 0;
 }
 #homeSection {
     position: relative;
