@@ -173,8 +173,8 @@ body.v3.pagebuilder .main_content {
     width: 100%;
 }
 @media (max-width: 768px) {
-    #Hero .herochar,
-    #Hero .pic1 {
+    .herochar,
+    .pic1 {
         display: none !important;
     }
     .page-reward-shop .big_banner_row .big_banner.big_banner.big_banner .content-wrapper.no-button.no-subtitle {
