@@ -26,9 +26,6 @@ body.v3 .full-bg {
     filter: blur(2px) brightness(100%);
     min-height: 100vh;
 }
-body.v3 .breadcrumb,.v3 .btn,.v3 .label,.v3 .main-nav,.v3 h1,.v3 h2,.v3 h3,.v3 h6 {
-    text-transform: uppercase
-}
 body.v3 .main-nav {
     font-weight: 400;
     height: 60px
@@ -123,10 +120,6 @@ body.v3.pagebuilder .main_content {
 .v3 .calendar-single.calendar-single.calendar-single.calendar-single.calendar-single.calendar-single .article-wrapper:hover .content-wrapper {
     margin-top: 62.24066%;
     padding-top: 0
-}
-
-.v3 .breadcrumb,.v3 .btn,.v3 .label,.v3 .main-nav,.v3 h1,.v3 h2,.v3 h3,.v3 h6 {
-    text-transform: uppercase
 }
 
 .v3 .main-nav {
