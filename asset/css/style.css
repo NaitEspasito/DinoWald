@@ -746,7 +746,8 @@ body.v3.pagebuilder .main_content {
 .page-server-informationen .wysiwyg-content .nav-tabs .nav-link:focus {
     border-left: .2em solid rgb(49, 69, 35, 0.9) !important;
     background-color: rgb(0, 0, 0, 0);
-    border-radius: 0;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
 }
 .page-server-informationen .wysiwyg-content #serverregeln .nav-tabs .nav-link.active,
 .page-server-informationen .wysiwyg-content #serverregeln.nav-tabs .nav-item.show .nav-link,
