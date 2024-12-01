@@ -744,22 +744,22 @@ body.v3.pagebuilder .main_content {
 }
 .page-server-informationen .wysiwyg-content .nav-tabs .nav-link:hover,
 .page-server-informationen .wysiwyg-content .nav-tabs .nav-link:focus {
-    border-color: rgb(253, 122, 0);
+    border-left: .2em solid rgb(49, 69, 35, 0.9) !important;
 }
-.page-server-informationen .wysiwyg-content #deshbord .nav-tabs .nav-link.active,
-.page-server-informationen .wysiwyg-content #deshbord .nav-tabs .nav-item.show .nav-link,
-.page-server-informationen .wysiwyg-content #gesetze .nav-tabs .nav-link.active,
-.page-server-informationen .wysiwyg-content #gesetze .nav-tabs .nav-item.show .nav-link
+.page-server-informationen .wysiwyg-content #serverregeln .nav-tabs .nav-link.active,
+.page-server-informationen .wysiwyg-content #serverregeln.nav-tabs .nav-item.show .nav-link,
+.page-server-informationen .wysiwyg-content #bauregeln .nav-tabs .nav-link.active,
+.page-server-informationen .wysiwyg-content #bauregeln .nav-tabs .nav-item.show .nav-link
 {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0, 0);
     border-left: .2em solid rgb(49, 69, 35, 0.9) !important;
     border-radius: 0;
 }
-.page-server-informationen .wysiwyg-content #deshbord .nav-item:hover .nav-link ,
-.page-server-informationen .wysiwyg-content #deshbord .nav-item:focus .nav-link,
-.page-server-informationen .wysiwyg-content #gesetze .nav-item:hover .nav-link,
-.page-server-informationen .wysiwyg-content #gesetze .nav-item:focus .nav-link
+.page-server-informationen .wysiwyg-content #serverregeln .nav-item:hover .nav-link ,
+.page-server-informationen .wysiwyg-content #serverregeln .nav-item:focus .nav-link,
+.page-server-informationen .wysiwyg-content #bauregeln .nav-item:hover .nav-link,
+.page-server-informationen .wysiwyg-content #bauregeln .nav-item:focus .nav-link
 {
     color: rgb(49, 69, 35) !important;
     border-left: .2em solid rgb(49, 69, 35, 0.9) !important;
