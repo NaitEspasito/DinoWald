@@ -740,6 +740,7 @@ body.v3.pagebuilder .main_content {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 51, 51);
     width: 100%;
+    margin-bottom: 0.5rem !important;
 }
 .page-server-informationen .wysiwyg-content .dashbord-nav {
     border: 0;
