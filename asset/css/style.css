@@ -1,3 +1,26 @@
+/******************************************************************
+	
+	
+	@ Author		Nait
+	@ Website		https://dinowald.premiumark.net/
+	
+
+ ******************************************************************/
+
+
+/******************************************************************
+
+
+	------------------------
+	-- TABLE OF CONTENTS --
+	------------------------
+    
+    --  1.
+
+    
+ 
+ 
+ ******************************************************************/
 body.v3 .full-bg {
     -webkit-filter: blur(2px) brightness(100%);
     filter: blur(2px) brightness(100%);
@@ -713,36 +736,39 @@ body.v3.pagebuilder .main_content {
 /*-----------------------------------------------------------------
 . Deshbord
 -------------------------------------------------------------------*/
-.page-server-informationen  .wysiwyg-content .dashbord-nav li.nav-item {
+.page-server-informationen .wysiwyg-content .dashbord-nav li.nav-item {
     color: rgb(255, 255, 255);
     background-color: rgb(51, 51, 51);
     width: 100%;
 }
+.page-server-informationen .wysiwyg-content .dashbord-nav {
+    border: 0;
+}
 
-.page-server-informationen  .wysiwyg-content .dashbord-nav a {
+.page-server-informationen .wysiwyg-content .dashbord-nav a {
     font-size: 1rem;
 }
 
-.page-server-informationen  .wysiwyg-content .wilkomm-box {
+.page-server-informationen .wysiwyg-content .wilkomm-box {
     background-color: rgb(51, 51, 51);
     padding: 3rem;
 }
 
-.page-server-informationen  .wysiwyg-content .wilkomm-headline {
+.page-server-informationen .wysiwyg-content .wilkomm-headline {
     color: rgb(255, 255, 255);
     font-size: 2.3rem;
 }
 
-.page-server-informationen  .wysiwyg-content .wilkomm-name {
+.page-server-informationen .wysiwyg-content .wilkomm-name {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 
-.page-server-informationen  .wysiwyg-content .acc-box {
+.page-server-informationen .wysiwyg-content .acc-box {
     background-color: rgb(51, 51, 51);
 }
 
-.page-server-informationen  .wysiwyg-content .d-button {
+.page-server-informationen .wysiwyg-content .d-button {
     background-color: rgb(114, 137, 218);
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -751,15 +777,15 @@ body.v3.pagebuilder .main_content {
     transition: all .5s;
 }
 
-.page-server-informationen  .wysiwyg-content .d-button:hover,
-.page-server-informationen  .wysiwyg-content .d-button:focus,
-.page-server-informationen  .wysiwyg-content .d-button:active {
+.page-server-informationen .wysiwyg-content .d-button:hover,
+.page-server-informationen .wysiwyg-content .d-button:focus,
+.page-server-informationen .wysiwyg-content .d-button:active {
     opacity: 1;
     color: rgb(255, 255, 255);
     background-color: rgb(114, 137, 218);
 }
 
-.page-server-informationen  .wysiwyg-content .t-button {
+.page-server-informationen .wysiwyg-content .t-button {
     background-color: rgb(100, 65, 164);
     color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -768,21 +794,21 @@ body.v3.pagebuilder .main_content {
     transition: all .5s;
 }
 
-.page-server-informationen  .wysiwyg-content .t-button:hover,
-.page-server-informationen  .wysiwyg-content .t-button:focus,
-.page-server-informationen  .wysiwyg-content .t-button:active {
+.page-server-informationen .wysiwyg-content .t-button:hover,
+.page-server-informationen .wysiwyg-content .t-button:focus,
+.page-server-informationen .wysiwyg-content .t-button:active {
     opacity: 1;
     color: rgb(255, 255, 255);
     background-color: rgb(100, 65, 164);
 }
-.page-server-informationen  .wysiwyg-content .checkbox-mail, .checkbox-discord, .checkbox-wihtlist{
+.page-server-informationen .wysiwyg-content .checkbox-mail, .checkbox-discord, .checkbox-wihtlist{
     padding: 2em;
     color: rgb(255, 255, 255);
 }
-.page-server-informationen  .wysiwyg-content .titel-box{
+.page-server-informationen .wysiwyg-content .titel-box{
     padding-left: .7rem;
 }
-.page-server-informationen  .wysiwyg-content iframe {
+.page-server-informationen .wysiwyg-content iframe {
     border-width: 0px;
     min-height: 60vh;
     width: 100%;
